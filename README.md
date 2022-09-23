@@ -1,8 +1,6 @@
 # Calculator
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/calculator`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+First gem. Basic calculator with the basic operations addition, substraction, multiplication and division. 
 
 ## Installation
 
@@ -16,7 +14,17 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+require "calculator"
+
+class ExampleClass
+    include Calculator
+end
+
+example = ExampleClass.new
+example.addition(1,2) # prints 3
+example.multiplication(1,2) # prints 2
+example.division(8,2) # prints 4
+example.substraction(5,2) # prints 3
 
 ## Development
 
