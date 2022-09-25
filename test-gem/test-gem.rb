@@ -1,4 +1,4 @@
-require "calculator"
+require "eagarcias-calculator"
 
 class BasicMath
 
